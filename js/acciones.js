@@ -1,5 +1,4 @@
 // JavaScript Document
-// acciones.js
 $(document).ready(function(e) {
     //watchID se refiere a la aceleracion 'actual'
 	//
@@ -13,7 +12,7 @@ $(document).ready(function(e) {
 	//empieza la 'observacion' de la aceleracion
 	//
 	function Comienza(){
-		var opciones={frequency:200};
+		var Opciones={frequency:200};
 		watchID=navigator.accelerometer.watchAcceleration(Correcto, Error, Opciones);
 		navigator.geolocation.getCurrentPosition(Localiza, ErrorLocalizacion);
 	}
@@ -23,7 +22,7 @@ $(document).ready(function(e) {
       watchID = null; 
 
     }
-}
+	}
 function Correcto(acceleration) { 
 var element = document.getElementById('acelerometro'); 
 element.innerHTML = 'Aceleracion en X: ' + acceleration.x + '<br/>' +
