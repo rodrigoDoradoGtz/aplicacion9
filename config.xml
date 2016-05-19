@@ -24,7 +24,7 @@ Dorado Gutierrez Rodrigo
 <preference name="android-installLocation" value="auto"/>
 <!--plugins-->
 <!--core plugins-->
-<plugin name:"org.apache.cordova.geolocation" spec="0.3.12" source="pgb"/>
+<plugin name="org.apache.cordova.geolocation" spec="0.3.12" source="pgb"/>
 <!-- Colocar icono app -->
 
 <icon src="res/android/mdpi.png"/>
