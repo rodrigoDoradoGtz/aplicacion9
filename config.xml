@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+*<*?xml version="1.0" encoding="utf-8"?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.phonegap.example9"
@@ -10,20 +10,21 @@ version = "1.0.0">
 <name>App 9 Geolocalizacion</name>
 
 <description>
-Aplicacion que la localizacion
+Aplicacion para ejemplificar la geolocalizacion
 </description>
 
-<preference name="phonegap-version" value="3.1.0"/>
+<preference name="phonegap-version" value="3.7.0"/>
 
 <autor href="https://build.phonegap.com" email="support@phonegap.com">
 Dorado Gutierrez Rodrigo
 </autor>
 
-<gap:plugin name="org.apache.cordova.device" version="0.2.12"/>
-<gap:plugin name="org.apache.cordova.vibration" version="0.3.0"/>
-<gap:plugin name="org.apache.cordova.dialogs" version="0.2.6"/>
-
-
+<preference name="target-device" value="universal"/>
+<preference name="fullscreen" value="true"/>
+<preference name="android-installLocation" value="auto"/>
+<!--plugins-->
+<!--core plugins-->
+<plugin name:"org.apache.cordova.geolocation" spec="0.3.12" source="pgb"/>
 <!-- Colocar icono app -->
 
 <icon src="res/android/mdpi.png"/>
